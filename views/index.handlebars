@@ -1,0 +1,45 @@
+<div class="container">
+    <img src="/assets/images/burger.png" alt="" id="burger">
+    <h1>My Burger Diaries</h1>
+    <div class="row">
+        <div class="col-6">
+<h2>Burgers to be devoured</h2>
+    {{#each burgers}}
+        {{#unless devoured}}
+            {{> burgers/burger-block devoured=false}}
+        {{/unless}}
+    {{/each}}
+</div>
+<div class="col-6">
+<h2>Burgers I have <strong>devoured</strong></h2>
+ {{#each burgers}}
+        {{#if devoured}}
+         {{burger_name}}
+         <button class="btn btn-light btn-sm disabled" data-id="{{id}}" data-eaten="true">
+		<i class="fas fa-hamburger"></i>
+	</button>
+        <hr>
+        {{/if}}
+{{/each}}
+</div>
+</div>
+<div class="row">
+    <div class="col-12">
+<h2>Add a Burger</h2>
+
+<form class="create-form">
+
+<div class="form-group create-form center-div">
+    <input type="text" class="form-control" id="bu" name="name" placeholder="Enter something delicious">
+  </div>
+
+  <div class="form-group hidden-radio">
+    <label for="devoured"></label><br>
+    <input type="radio" name="devoured" value="0" checked> Ready to be eaten<br>
+  </div>
+<br>
+  <button type="submit" class="btn btn-light">Add Burger to Diary</button>
+  </div>
+  </div>
+</form>
+</div>

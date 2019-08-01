@@ -1,0 +1,36 @@
+h1, h2{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+}
+
+body {
+    background-color: #f5d363
+}
+
+.hidden-radio {
+    display: none;
+}
+
+/* #bu {
+    width: 33%;
+} */
+
+.center-div{
+    margin: 0 auto;
+    width:25% /* value of your choice which suits your alignment */
+}
+
+#burger {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 150px;
+}
+
+#bu {
+    text-align: center;
+}
