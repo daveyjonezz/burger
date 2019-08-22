@@ -11,18 +11,22 @@ The premise is simple, but the value is infinite if you frequently forget what b
 
 ### Future Functionality
 
-Being able to remove a burger completely if it was accidently added.
-Being able to move the burger between columns.
-Having an option to rate the burger.
-Of course, being able to login and have your own personal dashboard.
+* Being able to remove a burger completely if it was accidently added.
+* Being able to move the burger between columns.
+* Having an option to rate the burger.
+* Of course, being able to login and have your own personal dashboard.
 
 ### Built With:
-HTML5
-CSS3
-JavaScript
-JQuery
-Bootstrap
-Heroku
+* HTML5
+* Handlebars
+* CSS3
+* JavaScript
+* JQuery
+* Bootstrap
+* MVC Format
+* NodeJS
+* Express NPM Package
+* Heroku
 
 
 ### Developer:
